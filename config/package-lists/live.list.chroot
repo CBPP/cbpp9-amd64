@@ -42,10 +42,8 @@ arj
 bzip2
 alsa-base
 lame
-xfce4-mixer
 pulseaudio
 pavucontrol
-xfce4-volumed
 viewnior
 xfce4-screenshooter
 ttf-freefont
@@ -108,7 +106,7 @@ hsetroot
 htop
 xsel
 build-essential
-xchat
+hexchat
 transmission-gtk
 vlc
 geany
