@@ -2,4 +2,7 @@ cache
 .build
 auto
 local
+chroot.*
+chroot/
+binary/
 live-image*
