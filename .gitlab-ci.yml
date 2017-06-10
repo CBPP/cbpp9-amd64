@@ -1,4 +1,4 @@
-image: computermouth/sudeb
+image: computermouth/sudeb:stretch
 
 before_script:
   - echo "deb http://ftp.us.debian.org/debian/ stretch main" | sudo tee /etc/apt/sources.list
