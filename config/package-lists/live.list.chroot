@@ -4,6 +4,6 @@ live-config-systemd
 
 xorg
 openbox
-lightdm
+lxdm
 
 cbpp-metapackage
