@@ -9,4 +9,4 @@ setup:
   script:
     - sudo lb build
     - ls -lsah
-    - sshpass -p '${UPLOAD_PW}' scp ${UPLOAD_UN}@138.68.225.164:cbpp9-686-$(date --iso-8601).iso live-image-i386.hybrid.iso
+    - sshpass -p '${UPLOAD_PW}' scp live-image-amd64.hybrid.iso ${UPLOAD_UN}@138.68.225.164:cbpp9-amd64-$(date --iso-8601).iso
