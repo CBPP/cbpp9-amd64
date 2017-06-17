@@ -3,7 +3,7 @@ image: computermouth/sudeb:stretch
 before_script:
   - echo "deb http://ftp.us.debian.org/debian/ stretch main" | sudo tee /etc/apt/sources.list
   - sudo apt-get update -qq
-  - sudo apt-get install -y qemu-user-static live-build sshpass
+  - sudo apt-get install -y qemu-user-static live-build sshpass ssh
 
 setup:
   script:
