@@ -8,8 +8,8 @@ set -e
 # LXDM's recommended packages don't particularly
 # help either.
 
-apt-get install -y --no-recommends lxdm
+apt-get -y install --no-recommends lxdm
 
-apt-get install -y cbpp-metapackage
+apt-get -y install cbpp-metapackage
 
 update-alternatives --set x-session-manager /usr/bin/openbox-session
