@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+apt-get purge -y lxdm lightdm lxde*
+apt-get install -y --no-recommends lxdm
+update-alternatives --set x-session-manager /usr/bin/openbox-session
